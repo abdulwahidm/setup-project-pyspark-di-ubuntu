@@ -1,0 +1,29 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+.pytest_cache/
+.pyre/
+.tox/
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.pyspark-env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Spark-related
+*.log
+*.out
+*.pid
+*.conf
+metastore_db/
+derby.log
+
+# IDE 
+.vscode
